@@ -8,7 +8,7 @@ name_money={"ayelet":100000,"shaul":75000,"yael":50000,"roni":90000,"avi":40000}
 print(name_money)
 name_money2=(name_money["ayelet"]+name_money["avi"])
 #print("sum money ayelet and avi: "+ str(name_money["ayelet"]+name_money["avi"]))
-print("sum money ayelet and avi: "+str(name_money2))
+print("sum money Ayelet and Avi: "+str(name_money2))
 name_money.update({"noam":name_money2})
 print(name_money)
 print("sum entries: "+str(len(name_money)))
